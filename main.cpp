@@ -1,15 +1,5 @@
 #include <iostream>
 using namespace std;
-
-void chen(int a[], int &n, int x, int k)
-{
-    for (int i=n ; i>=k ; i--)
-    {
-        a[i]=a[i-1];
-    }
-    a[k]=x;
-    n++;
-}
 int main()
 {
     int n, a[10000]={},x,k;
